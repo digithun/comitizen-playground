@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:digithun/comitizen-playground.git",
   "author": "Rungsikorn Rungsikavanich <rungsikorn@me.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
