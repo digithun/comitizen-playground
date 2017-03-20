@@ -5,6 +5,10 @@
   "repository": "git@github.com:digithun/comitizen-playground.git",
   "author": "Rungsikorn Rungsikavanich <rungsikorn@me.com>",
   "license": "MIT",
+  "scripts": {
+    
+    "commit": "git-cz"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0"
   },
